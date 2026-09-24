@@ -2,6 +2,7 @@
 build/
 mobile/build/
 dist/
+public/
 node_modules/
 
 # Flutter / Dart
