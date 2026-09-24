@@ -1,0 +1,5 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile.xcconfig"
+#include "Generated.xcconfig"
+// Profile builds use Google test ads (matches lib/config/ad_config.dart, which only
+// uses production ad units in release mode).
+#include "AdMob-Debug.xcconfig"

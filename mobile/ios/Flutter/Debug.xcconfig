@@ -1,0 +1,3 @@
+#include "Generated.xcconfig"
+// AdMob app ID for debug builds (Google test ID) — generated from config/admob.json.
+#include "AdMob-Debug.xcconfig"

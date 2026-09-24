@@ -1,0 +1,3 @@
+#include "Generated.xcconfig"
+// AdMob app ID for release builds — generated from config/admob.json.
+#include "AdMob-Release.xcconfig"

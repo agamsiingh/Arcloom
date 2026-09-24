@@ -1,0 +1,32 @@
+# Build outputs
+build/
+mobile/build/
+dist/
+node_modules/
+
+# Flutter / Dart
+.dart_tool/
+mobile/.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Secrets and signing keys - NEVER COMMIT
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pepk
+
+# IDE / Editor files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log

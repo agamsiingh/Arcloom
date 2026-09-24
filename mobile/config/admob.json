@@ -1,0 +1,27 @@
+{
+  "_readme": "Single source of truth for AdMob IDs. 'test' = Google's public sample IDs, used by debug/profile builds (and release builds made with --dart-define=ARCLOOM_TEST_ADS=true for ad units). 'release' = production IDs, used only by release builds. Consumed by android/app/build.gradle.kts (app ID manifest placeholder), tool/sync_admob_config.dart (iOS xcconfig) and lib/config/ad_config.dart (ad units). Values containing REPLACE are treated as not configured and ads stay disabled on that platform.",
+  "test": {
+    "android": {
+      "appId": "ca-app-pub-3940256099942544~3347511713",
+      "rewarded": "ca-app-pub-3940256099942544/5224354917",
+      "interstitial": "ca-app-pub-3940256099942544/1033173712"
+    },
+    "ios": {
+      "appId": "ca-app-pub-3940256099942544~1458002511",
+      "rewarded": "ca-app-pub-3940256099942544/1712485313",
+      "interstitial": "ca-app-pub-3940256099942544/4411468910"
+    }
+  },
+  "release": {
+    "android": {
+      "appId": "ca-app-pub-4549935803099292~2218226887",
+      "rewarded": "ca-app-pub-4549935803099292/4053963447",
+      "interstitial": "ca-app-pub-4549935803099292/4719257986"
+    },
+    "ios": {
+      "appId": "REPLACE_WITH_IOS_ADMOB_APP_ID",
+      "rewarded": "REPLACE_WITH_IOS_REWARDED_AD_UNIT_ID",
+      "interstitial": "REPLACE_WITH_IOS_INTERSTITIAL_AD_UNIT_ID"
+    }
+  }
+}

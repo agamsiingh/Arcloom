@@ -1,0 +1,16 @@
+{
+  "name": "ARCLOOM",
+  "short_name": "Arcloom",
+  "description": "A minimalist arrow-weaving puzzle game.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f3ee",
+  "theme_color": "#f6f3ee",
+  "categories": ["games", "puzzle"],
+  "icons": [
+    { "src": "assets/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,58 @@
+name: arcloom
+description: "arcloom - a minimalist arrow-weaving puzzle game"
+publish_to: 'none'
+
+# versionName+versionCode (Android) / CFBundleShortVersionString+CFBundleVersion (iOS).
+# Bump the build number (+N) for every store upload.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^9.1.0
+  shared_preferences: ^2.5.5
+  in_app_purchase: ^3.3.1
+  flutter_soloud: ^4.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  assets:
+    - config/admob.json
+    - assets/audio/
+    - assets/logo/
+
+# dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  adaptive_icon_monochrome: "assets/icon/icon_monochrome.png"
+  min_sdk_android: 21
+
+# dart run flutter_native_splash:create
+flutter_native_splash:
+  color: "#F6F3EE"
+  image: "assets/icon/splash.png"
+  color_dark: "#121220"
+  image_dark: "assets/icon/splash.png"
+  android_12:
+    image: "assets/icon/splash_android12.png"
+    icon_background_color: "#F6F3EE"
+    image_dark: "assets/icon/splash_android12.png"
+    icon_background_color_dark: "#121220"
+  fullscreen: false
