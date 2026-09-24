@@ -65,4 +65,4 @@ We may update our Privacy Policy periodically. Any updates will be reflected wit
 
 ### 8. Contact Us
 If you have any questions or inquiries regarding this Privacy Policy, please contact:
-- **Email:** support@arcloom.com
+- **Email:** agamcoder@gmail.com
